@@ -1,0 +1,17 @@
+site_name: mypypkg
+site_description: A starter template for my python projects and packages
+
+theme:
+  name: "material"
+
+repo_name: rayraegah/mypypkg
+repo_url: https://github.com/rayraegah/mypypkg
+edit_uri: ""
+
+nav:
+  - Introduction: "index.md"
+  - Release Notes: "release-notes.md"
+
+markdown_extensions:
+  - markdown.extensions.codehilite:
+      guess_lang: false
